@@ -1,0 +1,601 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_3" id="2ABD4C60-A483-D315-61E2-AE7B0E499233" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="TOAD_PLAN_TABLE">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>TOAD_PLAN_TABLE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>29AC8E8A-DD14-37E1-E82D-6B52E5E8990E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATEMENT_ID" id="F5909A91-47BE-2DEE-5F8F-F4FEE9655447">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>STATEMENT_ID</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>39377586-D2A1-0C0D-0C1D-5E91555EEF2D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ID" id="85414FFD-0A76-B4C6-C9AF-6ECB3440B5BD">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PLAN_ID</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>A6F040FE-EBC6-2BB7-8DDB-89DE52AA2DFF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTAMP" id="D68C04CF-B6B4-DD99-4207-FB69EBF579B5">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>TIMESTAMP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>341C7FDF-479A-DA29-8609-951F404BD0DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REMARKS" id="4CCAEF26-205C-B708-DF47-05A4AD6361D6">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>REMARKS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>D11BCF25-412B-3C6F-2E42-7C954AD3E50A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERATION" id="439F001A-424C-06A2-1C6A-2A2F5D2A4781">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OPERATION</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>FD262A06-E3F8-B19B-1CD8-80A76B571078</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPTIONS" id="BFAE9316-3094-73D9-7AEB-5A2C28F6F565">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OPTIONS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>D7B13487-D97E-9FB7-616B-135C2B01AEF3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_NODE" id="97A12170-FDCE-8A40-B95C-955934D6B639">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_NODE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>38E645B8-27BB-0A86-F162-2512B5E9DDEE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_OWNER" id="3B86A8B5-D716-53CF-C8DD-70AE288ECF58">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_OWNER</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>6EC4131A-AC92-2A3F-0B85-DBC6B3510790</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_NAME" id="85BCEFA0-D3E2-180A-36DC-5D48A6E35E81">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_NAME</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>196DE282-1F61-9EF0-1FB9-3671309D3A4B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_ALIAS" id="0D3A7CA1-99EA-CC43-ED9B-CD858DEB2FE0">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_ALIAS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>29453EF7-42D4-6AD8-32B3-FE62CAF05288</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 BYTE</dataTypeSize>
+<ownDataTypeParameters>65 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_INSTANCE" id="C20013A6-8835-4AD0-2955-D174A05DC702">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_INSTANCE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4A8192AB-1386-D112-D8DE-99BCBD4711BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_TYPE" id="19701E24-90AD-FF85-65EB-E80F53B36525">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OBJECT_TYPE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>54F47528-79D7-684E-4B5D-AD82FA3C1821</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPTIMIZER" id="E9AC8093-B16B-3338-B019-CDBBFB768C05">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OPTIMIZER</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>104F2CDC-12D1-54E8-5A50-9DDA0E3CFE04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEARCH_COLUMNS" id="BE3F40C1-003A-59ED-5B40-B210D3068B1D">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>SEARCH_COLUMNS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C78C1FB2-EDD4-AE5E-0994-2DCA8A46762E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="36F2981D-F3D5-632D-FE37-7365F8680313">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>6E0057AE-F00F-9857-605B-F377FEDFB757</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_ID" id="89900D62-E22D-75CE-9C8D-1C6CA1A1B941">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PARENT_ID</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>AC6B6DE4-7D15-DA42-0F4C-BC31CC25E0C1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTH" id="75D6F8FC-E9FE-6AB0-35E3-F80EB52C131E">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>DEPTH</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>315D3EC4-79D2-A78D-6600-73EA2F61BE63</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITION" id="AC30CF77-EE66-4982-1BAD-528D0AE93F75">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>POSITION</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>3D39182C-66D0-8552-0ACA-C25B083E4164</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COST" id="50DDDD84-6B7D-7271-EE69-5512F0DC9C6E">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>COST</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C44331E2-936A-C795-AC47-1018C8F7D21D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDINALITY" id="5B144219-FDA4-5078-BD95-51AB8AAAC080">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>CARDINALITY</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>9016E8B6-8792-BDE5-0DD9-7E00336AC7F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BYTES" id="1BD5B6ED-B712-0356-D501-B7F32C5B595F">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>BYTES</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7F14F86E-DC1E-DD46-7714-46DF2762A8CE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_TAG" id="19375D54-5D05-C69D-1631-71092D7BDEDE">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OTHER_TAG</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>09C70078-F60F-5000-FA8F-A9C25733ECFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTITION_START" id="64720C47-F0E5-87E2-F5BD-4BE10DADFCBD">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PARTITION_START</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>98E90E6C-C475-529A-40A6-308BB6AE23BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTITION_STOP" id="47800D38-4FAA-2B70-8BB9-4A3E7648566B">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PARTITION_STOP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>9745DD97-6DB6-C870-924A-7B52E8C31A01</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTITION_ID" id="6B8C721D-A637-14F7-9079-8A5B6A8D3053">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PARTITION_ID</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>6A8FCD61-1AB7-72AA-04A5-DB4A67450509</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER" id="B49DB9CC-D74A-AAFB-6FCB-1A443EFC67AB">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OTHER</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>330A8F9B-0146-85B6-61C3-6952F89865DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTRIBUTION" id="7872679A-FFF2-F3F5-A7DB-37EE776DAD86">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>DISTRIBUTION</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7AD7E650-3C45-D1BD-06A2-58CA68ED4C55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPU_COST" id="6D976FB5-F630-4112-91D2-9DB595886DA6">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>CPU_COST</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>314AA9C8-FB5F-E7F9-F6B8-3781FE8F7C7C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IO_COST" id="937A722A-4F32-9C14-EA28-078986DB6CDF">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>IO_COST</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>072FC341-ABAE-D56A-A0D7-0D3DDB957ADE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMP_SPACE" id="AC5CF7D6-06B7-0189-8A2C-2C5F2DBE77FB">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>TEMP_SPACE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>435CC390-3E1F-F27D-7791-DD1F37A37B6E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_PREDICATES" id="E468A87C-0088-CF53-9D45-88F1A43240FC">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>ACCESS_PREDICATES</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>314170D7-B783-6CD6-A779-B431281A6480</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILTER_PREDICATES" id="0DB52D8F-0472-C4D3-60A2-F0EE8EDCC556">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>FILTER_PREDICATES</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>0502FF2D-0816-A5F9-2916-FFD930916017</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECTION" id="02E7BAB8-0461-1626-12F7-B9A825CC65C3">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>PROJECTION</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>780989F8-BAD7-2818-45A7-54A8B4C481F2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="D208A5A5-6CB6-6643-B65F-560B32328578">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>B293E474-9BE4-3765-CD63-AECD82763AF8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QBLOCK_NAME" id="25515CBA-9D4A-380B-D88C-DA722FB94FA5">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>QBLOCK_NAME</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>1AD5BEED-296A-96CF-4848-C5E28C5EF996</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_XML" id="BAC66805-539A-34F8-977C-CC844AE66B7B">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TOAD_PLAN_TABLE</sourceObjSchema>
+<sourceObjName>OTHER_XML</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>73507B3E-38DB-F5D5-72BE-49FDEF4F4F89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
