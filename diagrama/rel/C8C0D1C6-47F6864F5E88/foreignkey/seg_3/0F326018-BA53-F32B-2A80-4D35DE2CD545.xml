@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_3" id="0F326018-BA53-F32B-2A80-4D35DE2CD545" containerWithKeyObject="413CBDD2-1E92-C4C9-BF16-93AA8707D82C" localFKIndex="4293FFB3-C632-7252-7CD3-32B19EB197AD" name="FK_SOL_FLJ_AUT">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_SOL_FLJ_AUT</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>565201A4-09A2-5D25-DF32-8E1D7239DD94</importedID>
+<referredTableLongName>SC_BEA.TC_FLUJO_AUT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84E25EC9-BB89-C041-3596-B9A123345860</referredTableID>
+<keyObject>477E2D04-55B5-5655-ADCE-6A53D50836D0</keyObject>
+<referredKeyID>477E2D04-55B5-5655-ADCE-6A53D50836D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_FLUJO_AUT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

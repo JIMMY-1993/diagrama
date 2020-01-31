@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_3" id="F3F3DB07-BBBE-56DE-C55A-DFBCAE7A4754" containerWithKeyObject="413CBDD2-1E92-C4C9-BF16-93AA8707D82C" localFKIndex="62687F46-2A20-B224-2B96-1FD475B8F6DB" name="FK_SOL_PERIODO">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_SOL_PERIODO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>E327A21D-8224-FDBD-E7B6-CB34F63CF5C0</importedID>
+<referredTableLongName>SC_BEA.TC_PERIODO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7848B181-2130-298D-84E6-F74F72B9257F</referredTableID>
+<keyObject>CA6C772C-6CEA-1B54-0AF3-754D425D4CB6</keyObject>
+<referredKeyID>CA6C772C-6CEA-1B54-0AF3-754D425D4CB6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_PERIODO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
