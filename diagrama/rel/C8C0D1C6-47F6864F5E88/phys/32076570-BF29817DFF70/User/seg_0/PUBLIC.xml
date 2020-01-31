@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PUBLIC" directorySegmentName="seg_0" id="PUBLIC">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:03:29 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions701" id="AF47FD7B-F736-27D7-DB54-5EB3FBBC925D">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:10 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>721C5CC1-818E-8FF1-85D1-7F44F12E0344</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions702" id="AD77CFC8-4AB0-2B47-2142-76C704851AA8">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:10 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>2ABD4C60-A483-D315-61E2-AE7B0E499233</table>
+</Permission>
+</permissions>
+</UserOraclev10g>
