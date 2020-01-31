@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="SCBEA_DATA01_IDX" directorySegmentName="seg_0" id="E541B2BF-D89F-DF93-0392-5DD230274D78">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjName>SCBEA_DATA01_IDX</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:48:20 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>
