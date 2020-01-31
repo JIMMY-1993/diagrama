@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TA_MAP_PERMISO" directorySegmentName="seg_2" id="B804A571-019A-BACE-4E94-4D8C016254FB">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>00857EC9-BD8C-A806-AEA6-BD7C8901D8AD</segment>
+<tableSpace>C5F77C84-5A7C-678B-F436-B61966C09F06</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FI_STATUS" id="065149A3-9A6D-0957-6D78-AB1B99DCCD6E">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_LOGIN" id="1836288C-0A18-2F94-FE07-7B3397EC1D11">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_ALTA" id="3BB62606-08AB-9462-2857-046D856E3F54">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_MODIFICO" id="94B5844E-3E4D-5D89-99F0-9CB4AC715358">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ROLE_ID" id="9B2CDC7F-B68F-22C4-C333-7EB6EB62C71F">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_ALTA" id="BB258202-1013-C4F6-376B-010F9F3AF0FA">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_STATUS_MENSAJE" id="C601BDB4-09AB-B70D-B6CF-00419D3DC291">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_MODIFICO" id="D2D9130C-BB1B-3583-2CCA-1CA29E8264C7">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_STATUS_CODIGO" id="D3A3C491-6FCC-3C56-9C75-A4E3FD7F8C44">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_EMPRESA_ID" id="E8D2EA9A-0439-2004-A107-8C47A8CCD2CE">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MAP_PERMISO" id="B44376D1-D0A6-2118-E96C-27BBE3AEED32">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<segment>D42CBA5B-2CEA-C3FB-46CA-6CC1D4E60E4B</segment>
+<tableSpace>05A35985-1D8C-3ACE-B012-015A63E1E0FA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LOGIN_PERM" id="0B7E4D77-5841-7BF6-287C-7E85DCD21CA9">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_MAP_PER_RBAZ" id="26AF71C9-D49E-B7DC-CB3A-C81FE770273C">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MAP_PERMISO" id="B1C5706B-B3E1-7A89-AE84-81B766826386">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<segment>D42CBA5B-2CEA-C3FB-46CA-6CC1D4E60E4B</segment>
+<tableSpace>05A35985-1D8C-3ACE-B012-015A63E1E0FA</tableSpace>
+<existingIndex>B44376D1-D0A6-2118-E96C-27BBE3AEED32</existingIndex>
+<indexSegment>D42CBA5B-2CEA-C3FB-46CA-6CC1D4E60E4B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TA_SOL_MNT_MAX" directorySegmentName="seg_2" id="ABF4C5BE-C646-1812-048A-E28549AFBBB1">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E030A1CF-5AD1-76F4-1539-3E7D684F206E</segment>
+<tableSpace>650BE115-57FE-CB38-6863-EC17C1BBBCDC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_USUARIO_ALTA" id="5408E426-C845-25E3-2897-AA4C2E17C636">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FN_MONTO_MAX" id="55A875FE-ACFF-3344-5B87-033996E6C562">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_MODIFICO" id="59C1AE66-9C01-E003-3E50-3F80BE123F9C">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_CUENTA" id="5F1AC662-5B2D-4792-CC58-FAA85BF77DAB">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_EMPRESA_CTA" id="64B7DD55-E736-CFB6-65FE-235EC0D3C2D4">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_MODIFICO" id="7B49828E-6669-C872-167C-ED4868A16F59">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_OPCION" id="81432346-A2FC-4B59-2960-6EB283E28EC1">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_ALTA" id="AAA839F9-4BB0-0818-D99D-E8C0033296E9">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_FOLIO" id="B749D323-67E1-C08C-69E2-6C8BDCD926EB">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_STATUS" id="F8C3DF89-A242-F6F3-A388-E16CAB596FAF">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SOL_MNT_MAX" id="903F936F-3F85-EBD6-61E8-A35F95D0E794">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>E541B2BF-D89F-DF93-0392-5DD230274D78</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SOL_MNT_MAX1" id="0985903F-ADCA-43BB-A7BF-E4836D48826F">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_S_MMAX_CTA" id="16D16758-B6EF-B539-FDB9-9179756B7BE2">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SOL_MNT_MAX" id="23FFB101-E6D5-21E7-AF12-F52CD3A4EDFB">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>E541B2BF-D89F-DF93-0392-5DD230274D78</tableSpace>
+<existingIndex>903F936F-3F85-EBD6-61E8-A35F95D0E794</existingIndex>
+<indexSegment>18AE6A20-69DA-500E-E571-74AC0B0777AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

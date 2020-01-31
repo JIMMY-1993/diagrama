@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TT_XML" directorySegmentName="seg_2" id="F540411A-9354-647D-9D77-71A944E676DA">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E030A1CF-5AD1-76F4-1539-3E7D684F206E</segment>
+<tableSpace>48E4A422-493B-76DB-B4AE-ED34D8313A24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_XML" id="BB560C5B-1D37-7B43-C6BA-896C465438CA">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<cache>NOCACHE</cache>
+<allowAnySchema>NO</allowAnySchema>
+<allowNonSchema>YES</allowNonSchema>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

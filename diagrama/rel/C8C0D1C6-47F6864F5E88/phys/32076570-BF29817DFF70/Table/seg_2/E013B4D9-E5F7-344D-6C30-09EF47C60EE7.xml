@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TC_CTA_PRODUCTO" directorySegmentName="seg_2" id="E013B4D9-E5F7-344D-6C30-09EF47C60EE7">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E030A1CF-5AD1-76F4-1539-3E7D684F206E</segment>
+<tableSpace>06848432-BE07-FF64-5A58-7399E1E040B9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_PRODUCTO" id="41A00832-C004-1D09-A828-BAD3C9550681">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_MODIFICO" id="5393679D-80A4-DDEF-22F8-DB707F3D83B7">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_ALTA" id="850F3E0A-0743-9742-FFB0-EBFCF4FDEB2D">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_STATUS" id="91D1B6D0-3ABF-85D7-A96C-5ABDDB8705DD">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_SUBPRODUCTO" id="BB7353A9-3FA6-11F8-4498-8E78D1BEFD14">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_MODIFICO" id="C1DA9644-2F6A-9736-C79F-48CA1A287A64">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_ALTA" id="F02B5D1B-6D1F-5797-CE84-BF389B73D9F7">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_PRODUCTO" id="F2960B27-935B-7117-6B45-F2B81B66969E">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CTA_PRODT" id="6A436E00-4333-5469-496A-C15DB063D437">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>0F6E4895-199F-64CD-04EE-23F52D50585A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CTA_PRO_PRO" id="A6DDCE57-8F15-6A0E-94B1-0DB564BEA81D">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CTA_PRODT" id="58F3275D-8395-64FC-381B-0E8E079EC6E3">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>0F6E4895-199F-64CD-04EE-23F52D50585A</tableSpace>
+<existingIndex>6A436E00-4333-5469-496A-C15DB063D437</existingIndex>
+<indexSegment>18AE6A20-69DA-500E-E571-74AC0B0777AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

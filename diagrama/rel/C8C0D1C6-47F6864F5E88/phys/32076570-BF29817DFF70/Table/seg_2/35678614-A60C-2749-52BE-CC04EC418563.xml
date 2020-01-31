@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TA_SOL_TAR_PRES" directorySegmentName="seg_2" id="35678614-A60C-2749-52BE-CC04EC418563">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E030A1CF-5AD1-76F4-1539-3E7D684F206E</segment>
+<tableSpace>C5F77C84-5A7C-678B-F436-B61966C09F06</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_OPCION_TPRES" id="1AD2897F-A5C7-0622-1D5C-C1C778CE2C59">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_STATUS" id="7BE1FD84-4633-A2A0-FC20-C2D908B451AE">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_ALTA" id="8B291B81-04A0-64A4-2D16-AF870E4E8527">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_FOLIO" id="AD9883C1-EEF0-1CC4-363B-E025FD011E7D">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_TARJETA" id="D3235811-365F-961C-C591-E3F05481EBE8">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USUARIO_MODIFICO" id="D7BEAB23-FBAD-0E9D-D051-B85928638BE0">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_MODIFICO" id="EA6DDFED-56BF-B9BA-1DE3-A7A42E7F1BE0">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_TITULAR" id="F2598479-4AD5-37F1-B825-8E39C2E09CDE">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_ALTA" id="F65D0F43-734E-E083-05F0-1517274A17F1">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SOL_TAR_PRES" id="7DAEF29B-55D0-1F5C-DD95-B62A93086292">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>8AD07257-1A3E-3202-6080-D8F43B2E5CBC</schemaObject>
+<logging>NO</logging>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>05A35985-1D8C-3ACE-B012-015A63E1E0FA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SOL_TAR_PRES" id="8723BC62-C825-5DD8-8E02-16B5D87C51F9">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SOL_TAR_PRES" id="15DF24D1-89A9-D4F4-9C0A-DE73394F3371">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<logging>NO</logging>
+<segment>18AE6A20-69DA-500E-E571-74AC0B0777AE</segment>
+<tableSpace>05A35985-1D8C-3ACE-B012-015A63E1E0FA</tableSpace>
+<existingIndex>7DAEF29B-55D0-1F5C-DD95-B62A93086292</existingIndex>
+<indexSegment>18AE6A20-69DA-500E-E571-74AC0B0777AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
