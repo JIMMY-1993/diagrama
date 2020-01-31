@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5EDFF51E-D21C-6035-29A4-F8EB346712C9" containerWithKeyObject="4973E707-715B-E67E-91F4-E4BDA4DD8BC9" localFKIndex="A2CEB911-537D-A33B-13CE-06559915C121" name="FK_ID_ST_TOK">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_ID_ST_TOK</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>64F38E29-0EBF-8209-82D0-EBB0A539251F</importedID>
+<referredTableLongName>SC_BEA.TC_STATUS_TOKEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A3D290B-D9BA-5B88-9B5B-1F074B65FA22</referredTableID>
+<keyObject>6473BA5E-9E7D-AC28-82DB-9A559A48FFA6</keyObject>
+<referredKeyID>6473BA5E-9E7D-AC28-82DB-9A559A48FFA6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_EST_TOKEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D582384B-BA13-6A02-0F91-4E157B99FD1A" containerWithKeyObject="7A959F6C-C8F4-2A62-ACBA-D656F52B6D12" localFKIndex="5AC22584-A1A2-90F0-B404-382A1391AB82" name="FK_ID_EST_INI">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_ID_EST_INI</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7F573D07-86FF-F130-0791-A373BB87DF19</importedID>
+<referredTableLongName>SC_BEA.TC_ESTADO_FOLIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E521782D-2F2E-A9EF-5661-59F7FC055F7C</referredTableID>
+<keyObject>F972EA46-A50A-80F0-969F-C149DE73FF4B</keyObject>
+<referredKeyID>F972EA46-A50A-80F0-969F-C149DE73FF4B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_ESTADO_FOLIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

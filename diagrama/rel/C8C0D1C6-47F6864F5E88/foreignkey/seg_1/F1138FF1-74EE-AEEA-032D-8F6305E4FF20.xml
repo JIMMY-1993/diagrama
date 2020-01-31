@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F1138FF1-74EE-AEEA-032D-8F6305E4FF20" containerWithKeyObject="4FBB9209-3FD4-A38C-0680-38539FF23EF9" localFKIndex="2B9C9837-C833-96C4-B3F6-487497EDA09B" name="FK_ID_EMI_PSTOP">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_ID_EMI_PSTOP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>D5159168-51E7-7402-5034-75272C07C254</importedID>
+<referredTableLongName>SC_BEA.TC_EMISOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD2595C3-5180-4ABF-EE95-0130A0F61433</referredTableID>
+<keyObject>38FEF0CE-41FC-0C23-513A-AEE24AECA681</keyObject>
+<referredKeyID>38FEF0CE-41FC-0C23-513A-AEE24AECA681</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_EMISOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

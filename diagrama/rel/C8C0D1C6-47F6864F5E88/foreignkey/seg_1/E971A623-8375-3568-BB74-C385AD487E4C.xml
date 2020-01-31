@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E971A623-8375-3568-BB74-C385AD487E4C" containerWithKeyObject="F7D65020-BDAD-CA67-8CB1-3A9321C8B40C" localFKIndex="EBC5AAE3-E4E4-93C9-ABE3-6FBB9943DFF9" name="FK_IDEMISOR_PS">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_IDEMISOR_PS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>2604B97B-73F6-2D3E-CED2-358BF677416B</importedID>
+<referredTableLongName>SC_BEA.TC_EMISOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD2595C3-5180-4ABF-EE95-0130A0F61433</referredTableID>
+<keyObject>38FEF0CE-41FC-0C23-513A-AEE24AECA681</keyObject>
+<referredKeyID>38FEF0CE-41FC-0C23-513A-AEE24AECA681</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_EMISOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
