@@ -330,6 +330,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="18432" y="2256" width="336" height="198"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="50F24E1B-BB4F-012E-92B3-FE2B13221B1D" otype="Table" vid="A56395EA-02CE-3281-3E5C-23F0821AC034">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="177" y="1040" width="317" height="188"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="535871CC-54EC-0316-47C2-DC62720D1044" otype="Table" vid="67DF4EC0-C5FE-7E7B-F90E-F67E592C9CB5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="39369" y="1844" width="365" height="268"/>
