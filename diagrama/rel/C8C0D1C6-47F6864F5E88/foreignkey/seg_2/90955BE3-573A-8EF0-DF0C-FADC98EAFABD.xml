@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="90955BE3-573A-8EF0-DF0C-FADC98EAFABD" containerWithKeyObject="89533D4F-ADB6-8E72-1DCD-872D0601DD80" localFKIndex="6D5A4286-9467-91D8-5923-684B0D04002F" name="FK_MON_TRANI">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_MON_TRANI</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>5AD43EBE-EFD8-81D0-C865-016F9BEEE628</importedID>
+<referredTableLongName>SC_BEA.TC_MONEDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0D64F36-FCA5-21DA-862C-B2894DA9BD30</referredTableID>
+<keyObject>081539B8-8564-6CFC-DBDE-1B648FEB8FCB</keyObject>
+<referredKeyID>081539B8-8564-6CFC-DBDE-1B648FEB8FCB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_MONEDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

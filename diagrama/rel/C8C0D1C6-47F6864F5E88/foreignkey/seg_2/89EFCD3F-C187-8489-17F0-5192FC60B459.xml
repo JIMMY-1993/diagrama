@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="89EFCD3F-C187-8489-17F0-5192FC60B459" containerWithKeyObject="D084D1C3-9E5E-C56C-627C-7A2294B60829" localFKIndex="72B5A0C1-BDAA-2BA5-ABF3-CA4DA070E3AE" name="FK_MENU_PERMISO">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_MENU_PERMISO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>A9C66D03-4AF7-DE05-36F7-14809A56171E</importedID>
+<referredTableLongName>SC_BEA.TC_PERMISO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CE9E1E3-E47D-41E9-5576-BF7E03F1DA6E</referredTableID>
+<keyObject>15F8C4E6-85BD-F5B3-6128-687729B58B71</keyObject>
+<referredKeyID>15F8C4E6-85BD-F5B3-6128-687729B58B71</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_PERMISO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

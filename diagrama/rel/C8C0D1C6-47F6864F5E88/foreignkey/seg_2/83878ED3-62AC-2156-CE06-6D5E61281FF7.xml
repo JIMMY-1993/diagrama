@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="83878ED3-62AC-2156-CE06-6D5E61281FF7" containerWithKeyObject="C777EDEF-464A-F790-8DE7-E59F76290EEE" localFKIndex="E682D9D3-66D6-003C-B58C-BACB7029AD79" name="FK_MENU_ROL_ROL">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_MENU_ROL_ROL</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>68CEE1CC-FF65-0771-BB71-555EBB2B4A0F</importedID>
+<referredTableLongName>SC_BEA.TC_ROL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD4FEFB1-CFF8-6BC4-AB39-8A4EEE445E15</referredTableID>
+<keyObject>3C676FE1-93DC-16AA-5A1C-2DF31F38206E</keyObject>
+<referredKeyID>3C676FE1-93DC-16AA-5A1C-2DF31F38206E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_ROL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
