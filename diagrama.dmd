@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagrama" id="A8E6D997-C6C6-48AE-3890-400387790E19" version="3.5">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 16:38:35 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A8E6D997-C6C6-48AE-3890-400387790E19</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EB01FC00-1F43-AB62-E998-961F5DCF5B8C">
+<designStoragePath>E:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="66149A7A-27C3-ECC3-7D7F-42F0BA7A6BDD">
+<designStoragePath>E:\Users\lpedrero\Documents\JAIME</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F07880CF-0FC5-D817-5A49-5C621C885C79">
+<designStoragePath>E:\Users\lpedrero\Documents\JAIME</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B98790D2-ECFE-0602-6C6E-DF706B5AFD02">
+<designStoragePath>E:\Users\lpedrero\Documents\JAIME</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
