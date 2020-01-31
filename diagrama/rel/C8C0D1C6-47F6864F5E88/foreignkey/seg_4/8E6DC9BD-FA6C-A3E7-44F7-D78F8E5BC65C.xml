@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_4" id="8E6DC9BD-FA6C-A3E7-44F7-D78F8E5BC65C" containerWithKeyObject="02CE8B5D-CDD6-8A14-BC54-C7CCE6E8EF79" localFKIndex="4C2B94F5-3910-FC91-5F85-0F7E4C456685" name="FK_TIP_ACT_TAR">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_TIP_ACT_TAR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>E3C3B88A-A863-67E7-C6A0-C34466C457B8</importedID>
+<referredTableLongName>SC_BEA.TC_TIPO_TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F39EB815-DBEC-A6FC-DB01-3D0294285862</referredTableID>
+<keyObject>B135926C-CD1D-8660-85AA-F32C76974F86</keyObject>
+<referredKeyID>B135926C-CD1D-8660-85AA-F32C76974F86</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_TIPO_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

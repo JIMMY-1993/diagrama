@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_4" id="5CFA6DC2-326F-7CFD-C993-6CDFEF0034DD" containerWithKeyObject="285337FD-015B-4B52-14AE-A108C15897DA" localFKIndex="F3E40159-03EA-E0F2-EF58-D946D5C297BD" name="FK_TRANF_SOL">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_TRANF_SOL</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>CF97E5C3-F559-4406-417F-AFF9801B3B01</importedID>
+<referredTableLongName>SC_BEA.TA_SOLICITUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E4F3E50-A839-462D-A158-6084705AE59B</referredTableID>
+<keyObject>667747D8-D018-F5B9-4B25-AE8210B80397</keyObject>
+<referredKeyID>667747D8-D018-F5B9-4B25-AE8210B80397</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_FOLIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_4" id="E480E9D4-3A98-447D-2C63-7FF0CFA13748" containerWithKeyObject="0FFB3224-EE17-9C41-BFB4-B8A860553C29" localFKIndex="6397EFCD-E2DF-FDB0-CC78-83FF3DC0D45B" name="FK_VIG_SOL_VIG">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_VIG_SOL_VIG</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>27C2C04F-9F85-8BF9-D083-D5BBA0E37F19</importedID>
+<referredTableLongName>SC_BEA.TC_VIGENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58C641AB-729C-9C4B-B925-E8F5A1C642AD</referredTableID>
+<keyObject>B5359E4F-9DF5-0AF1-B8D9-E08221DDF707</keyObject>
+<referredKeyID>B5359E4F-9DF5-0AF1-B8D9-E08221DDF707</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_VIGENCIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

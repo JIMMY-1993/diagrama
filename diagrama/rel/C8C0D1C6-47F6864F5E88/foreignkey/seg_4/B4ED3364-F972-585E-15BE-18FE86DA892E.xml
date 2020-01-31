@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_4" id="B4ED3364-F972-585E-15BE-18FE86DA892E" containerWithKeyObject="2687501C-F3B4-8EED-43D3-D7417691926D" localFKIndex="A5FFD25C-789B-2CD5-AD29-BBB16F5BEE7A" name="FK_UEM_NIV_AUT">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_UEM_NIV_AUT</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7B24B30F-86EE-48D8-7888-205A6E6346D4</importedID>
+<referredTableLongName>SC_BEA.TC_PESO_AUT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7B63CF6-610E-1748-8F65-58E92CDD152E</referredTableID>
+<keyObject>64DA318C-A0FC-E965-18D8-520C2FA43B36</keyObject>
+<referredKeyID>64DA318C-A0FC-E965-18D8-520C2FA43B36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_PESO_AUT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

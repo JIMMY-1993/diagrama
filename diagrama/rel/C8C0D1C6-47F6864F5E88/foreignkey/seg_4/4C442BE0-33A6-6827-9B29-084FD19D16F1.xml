@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_4" id="4C442BE0-33A6-6827-9B29-084FD19D16F1" containerWithKeyObject="89533D4F-ADB6-8E72-1DCD-872D0601DD80" localFKIndex="5E2824A5-E633-BD51-D5C2-BCFA63BB7D01" name="FK_TSPID_TIPOP">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_TSPID_TIPOP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7D920EEA-129A-CC1E-DE5A-99833E5C7ABE</importedID>
+<referredTableLongName>SC_BEA.TC_TIPO_OP_SPID</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F18E7CDB-56BD-AB77-A9C0-1E0C8EF4A097</referredTableID>
+<keyObject>186A4AAE-AC33-6456-25FD-0939C1C7ABE9</keyObject>
+<referredKeyID>186A4AAE-AC33-6456-25FD-0939C1C7ABE9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_TIP_OP_SPID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
