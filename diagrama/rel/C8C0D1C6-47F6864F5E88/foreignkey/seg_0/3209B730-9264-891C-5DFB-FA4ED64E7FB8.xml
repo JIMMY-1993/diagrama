@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3209B730-9264-891C-5DFB-FA4ED64E7FB8" containerWithKeyObject="ECA317C8-C12D-9D40-F00F-23C9DF45A5C6" localFKIndex="4331D812-32E5-9EC3-45DD-3AA45F0B4111" name="FK_CARGABO_TAR">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_CARGABO_TAR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>771F19B0-5BB6-3395-0EB2-6A87984D6EA3</importedID>
+<referredTableLongName>SC_BEA.TC_CARGO_ABONO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A3F73C6-ACD4-72AE-96C3-CEE8DDCF8CC4</referredTableID>
+<keyObject>0AE361E9-0361-410D-C5F3-A7C17665D7B8</keyObject>
+<referredKeyID>0AE361E9-0361-410D-C5F3-A7C17665D7B8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FI_ID_CARGO_ABONO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

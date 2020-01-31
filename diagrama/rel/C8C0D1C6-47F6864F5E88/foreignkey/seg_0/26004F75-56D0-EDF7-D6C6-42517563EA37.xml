@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="26004F75-56D0-EDF7-D6C6-42517563EA37" containerWithKeyObject="6432D640-A944-A7BF-7F90-DCC00810E392" localFKIndex="6A3B35CB-D788-1DED-7C31-230590AF22F6" name="FK_CRON_ESTADO">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_CRON_ESTADO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C2A14429-CDF9-EA19-8D3F-0C74D0E21E00</importedID>
+<referredTableLongName>SC_BEA.TC_ESTADO_CRON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43E167B0-2A5C-1F9B-0450-EEF3D96863EC</referredTableID>
+<keyObject>8294C168-45C4-1C8F-B7EF-2DD3ADC96C61</keyObject>
+<referredKeyID>8294C168-45C4-1C8F-B7EF-2DD3ADC96C61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_ESTADO_CRON</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

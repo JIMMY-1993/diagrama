@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAAC90E5-B585-F2D6-0FFD-A79C41D5AC07" containerWithKeyObject="B3EF4B5A-B6B3-4C36-BE50-16D56C74F1F6" localFKIndex="E0941553-5361-EE9F-50D4-C197F97F298E" name="FK_BIO_BIO">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>FK_BIO_BIO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>B1695973-BBA6-AA71-90FE-7283D219A9D9</importedID>
+<referredTableLongName>SC_BEA.TC_BIOMETRICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ACE40AA6-D4B5-6384-40CE-3D6472303089</referredTableID>
+<keyObject>90B8796D-7208-CC06-9D99-30CB71F30318</keyObject>
+<referredKeyID>90B8796D-7208-CC06-9D99-30CB71F30318</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_TIPO_BIOME</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
