@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="BAF0982C-8F17-8573-F6B6-6D89C3312A5B" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="TA_SOL_OBS_PAPR">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>TA_SOL_OBS_PAPR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>2B324F0B-07FB-4DCD-165C-86A566A84707</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_FOLIO" id="54F573B8-EB33-27D1-DCB0-EE198B0D31FC">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FI_ID_FOLIO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la solicitud.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>CB1C7D4C-2DCE-4860-8A87-215852FD27CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16CD4AA3-EDC5-D0B0-011B-CD2529CE1F77" referredColumn="4A525CF6-40AF-C9D5-9B4F-741AB3108521"/>
+</associations>
+</Column>
+<Column name="FI_NUM_OBSER" id="BE4C4199-5FD9-511E-5CCC-D10E509AB08F">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FI_NUM_OBSER</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la observacion]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>8C047AC0-FC41-681A-1355-6132770253D9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_LLAVE" id="5F8F6BA9-BFAF-458D-8763-30DC07E3A7B5">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_LLAVE</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la dispersión a empleados por periodo.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>E93694E3-40BC-1A6A-0A10-7704A8FACC9B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16CD4AA3-EDC5-D0B0-011B-CD2529CE1F77" referredColumn="6061030E-6301-32A0-1BC2-F63CD962C849"/>
+</associations>
+</Column>
+<Column name="FC_VALOR" id="3DE8E497-8582-C227-D7F3-B4C66C7377DA">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_VALOR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor de importe.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>6E214E79-DA14-D64E-0DF8-C962AC06D67A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_VALOR2" id="49E6309E-C5D6-D3AF-282B-E0895BBF1571">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_VALOR2</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor de importe2.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>3CD51234-681E-63B0-AE96-7F3A7E7E5EFE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_NUMERO_REGISTRO" id="F09A335B-8021-B0E7-7595-9AFCF0C98DD0">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FI_NUMERO_REGISTRO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>B3287CA4-6E9A-FB05-FFA8-FEDFA123EFCD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_COD_REC" id="4EF699DE-DD0D-B018-7739-55EF3D9B7143">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FI_COD_REC</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del recibo de nomina.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>21E27C36-C14D-07A0-40F6-C6F5E0C16F1F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_OBS_REC" id="0753E95D-34C7-2B02-4579-7FAF0117979F">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_OBS_REC</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Observación del recibo de nomina.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C104D85D-11EF-950A-91C4-CF49DA46936F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_STATUS" id="CEDD41BB-339D-B0AD-C64D-460F33C0AD71">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FI_STATUS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus del registro. (0=baja 1=Activo).]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>014A53CC-0493-5D49-34EB-E57F371330D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_ALTA" id="F5F92DD8-6FC4-6864-B3E1-261B24030A1C">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FD_FECHA_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de alta del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>8D9CA07B-470D-7BDC-09E0-0EB477F11997</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_ALTA" id="B2554C5B-C25E-9D58-0685-245FA198A80F">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_USUARIO_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de alta del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>F28ECEF4-298C-5096-245A-060ABE0A3093</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_MODIFICO" id="D77EBC7C-1A2C-CA39-ABA1-C6F91D888912">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FD_FECHA_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de modificación del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4FA47F87-62AC-82BA-F0C2-0CF244332474</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_MODIFICO" id="7EA81FB1-BCB6-B7CF-1384-BF60024B5FC9">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_OBS_PAPR</sourceObjSchema>
+<sourceObjName>FC_USUARIO_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario de modificación del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7AE958BB-F1AA-D35F-CD67-E27B4C8D29CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="383AA1FE-B9F5-B04D-E9A3-55F0500B0AFD" name="PK_OBS_PAPR">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_OBS_PAPR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>F20DDB83-6C9F-4350-373C-41BD2AE7FE23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F573B8-EB33-27D1-DCB0-EE198B0D31FC"/>
+<colUsage columnID="BE4C4199-5FD9-511E-5CCC-D10E509AB08F"/>
+<colUsage columnID="5F8F6BA9-BFAF-458D-8763-30DC07E3A7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3ED9FB9-A8BF-B595-2CC5-6EC01C5774BA" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="PK_OBS_PAPR">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_OBS_PAPR</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>9E0CAF59-EFA2-A46A-002C-C77254CED7EB</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F573B8-EB33-27D1-DCB0-EE198B0D31FC"/>
+<colUsage columnID="BE4C4199-5FD9-511E-5CCC-D10E509AB08F"/>
+<colUsage columnID="5F8F6BA9-BFAF-458D-8763-30DC07E3A7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="057E32FC-0204-1E32-6F98-B4F9EAF5CA3B" name="FK_REC_OBSN">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F573B8-EB33-27D1-DCB0-EE198B0D31FC"/>
+<colUsage columnID="5F8F6BA9-BFAF-458D-8763-30DC07E3A7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

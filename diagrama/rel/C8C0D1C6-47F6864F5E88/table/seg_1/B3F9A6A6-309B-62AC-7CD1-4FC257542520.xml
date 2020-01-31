@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B3F9A6A6-309B-62AC-7CD1-4FC257542520" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="TA_SOL_MAS_CORP">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>TA_SOL_MAS_CORP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>057D1379-8C82-C621-AF24-A5C49CF4486B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_FOLIO" id="3F85CF92-1240-B1D2-1FFB-5D4EA5EB3BE3">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FI_ID_FOLIO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la operación agendada.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>BAC9A983-BFC1-8DB5-6818-7E7DC1288266</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="139A79E2-F213-AD93-57B0-4A6C7B9F1865" referredColumn="8E347341-9D43-58A9-9052-6028E68E186D"/>
+</associations>
+</Column>
+<Column name="FI_NUM_REGISTRO" id="FA69FB54-6D69-910B-B3DB-BBA291A0A5EA">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FI_NUM_REGISTRO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Secuencia de pago solicitado, es un número consecutivo por archivol.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>5B97636B-5907-8D4E-B351-735B070A40BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_NUM_CONVENIO" id="0FB7E92E-4A10-9AB9-A03B-A05C66C2D543">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_NUM_CONVENIO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de convenio que identifica a cada Empresa, es unico e irrepetible. Este número deberá ser asignado por Banco Azteca.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>2FA22070-9535-7556-78F4-A7DC6D419F4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_REFERENCIA" id="F30D9E06-C31B-D39D-8844-3628A3FFD080">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_REFERENCIA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este campo debe ser obligatorio que lo conozca el beneficiario para cobrar su importe y debe otorgarlo en ventanilla de Banco Azteca]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>EB784F71-1322-32AB-7FD0-94958AC2B4A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<ownDataTypeParameters>35 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_NOMBRE_COMPLETO" id="56DFE7B6-9714-AA72-67A4-FEF62C3F1AB2">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_NOMBRE_COMPLETO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del beneficiario]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>840D27F8-FF7D-D6FC-4B80-6EDAD28383B3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_COD_ERRENVAL" id="E7E6392B-9071-E7EB-DD05-91987EDB15FF">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_COD_ERRENVAL</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo de respuesta]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>EEAB42A3-BED5-E2C5-F48E-F7280B34DFBB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_DES_ERRENVAL" id="0934C5DF-857A-A59A-F183-C7D48A7E2C36">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_DES_ERRENVAL</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripcion código de respuesta]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4087E123-026A-9D41-E149-F07408D6A038</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_STATUS" id="54C26333-2310-3402-706F-BF058DA248F6">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FI_STATUS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus del registro]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>70A27BC0-0105-CCE1-26F4-DE5D2CFB5AA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_ALTA" id="28277E36-931E-F9F4-8685-75D29753FA6C">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FD_FECHA_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de alta del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4E9EFC94-F743-1FA0-56A4-58136D6D3363</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_ALTA" id="235A6B73-5F22-466B-D433-A21AD94FA3E3">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_USUARIO_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario de alta del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>888B13F8-EB7C-85D8-2C5E-3EAD78D2E89F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_MODIFICO" id="26F43929-1C93-5326-7E3E-7A635A9FF4EE">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FD_FECHA_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de modificación del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7E764C46-5D18-0743-C8A7-53AB1479ADF2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_MODIFICO" id="41D69EB1-E8DF-714E-F54F-AEAE1994874A">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_SOL_MAS_CORP</sourceObjSchema>
+<sourceObjName>FC_USUARIO_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario de modificación del registro.]]></commentInRDBMS>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>8062AD8F-D039-3123-232A-8EEE601E23C8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9A398AC-7389-2DB6-EBEA-90996A67689C" name="PK_S_MAS_CORP">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_S_MAS_CORP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>BB3BE4DC-93DC-ABB8-6549-A8F891158FBF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F85CF92-1240-B1D2-1FFB-5D4EA5EB3BE3"/>
+<colUsage columnID="FA69FB54-6D69-910B-B3DB-BBA291A0A5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="514E729C-4EA6-C84B-690D-D9778E33B2B5" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="PK_S_MAS_CORP">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_S_MAS_CORP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C8479876-14F2-3362-3A0D-7CBD2749109D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F85CF92-1240-B1D2-1FFB-5D4EA5EB3BE3"/>
+<colUsage columnID="FA69FB54-6D69-910B-B3DB-BBA291A0A5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4A7333-1A1D-1253-C215-E6760B781466" name="FK_SARC_CORP">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F85CF92-1240-B1D2-1FFB-5D4EA5EB3BE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
