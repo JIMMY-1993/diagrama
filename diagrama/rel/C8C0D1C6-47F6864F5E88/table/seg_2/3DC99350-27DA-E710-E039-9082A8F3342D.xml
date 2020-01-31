@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="3DC99350-27DA-E710-E039-9082A8F3342D" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="TA_USERIPADRESS">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>TA_USERIPADRESS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7C2853A0-28B6-69EE-C424-E3FD2F414723</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_IP" id="D5EB4165-3A84-8DE7-CE10-1B06F1176160">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FI_ID_IP</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>C4C535F5-F240-3B2C-2F72-03CE82E223E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="862B5704-CB6A-4828-8A2E-9FBB4572E00F" referredColumn="B417374A-A991-B165-8DC6-7F4B66A4267F"/>
+</associations>
+</Column>
+<Column name="FI_ID_USER" id="5BF0A780-4412-A9A0-770F-3D8A54999ADA">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FI_ID_USER</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>126041DA-2DE9-C39B-8344-6537D560DE7E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59BC4871-2D38-E890-0D2A-942456B558DF" referredColumn="7F207426-DB4B-5547-CA6E-9A987DB4D6ED"/>
+</associations>
+</Column>
+<Column name="FC_DESCRIPCION" id="BA1BA614-EAB1-8678-D5D8-C93DB145F140">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FC_DESCRIPCION</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4107BC47-EAE2-015F-E06C-C4B538F02ADF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_STATUS" id="BCE40AE8-C790-E226-F0BD-6C29E9307EA4">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FI_STATUS</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>4485DC7C-1A26-5267-429B-2D53CEBBF40F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_ALTA" id="158B5856-EC2D-EB99-0B4B-2CA5188B96C3">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FD_FECHA_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>BFA9B078-18FE-B72C-5A43-3AD94BBB39EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_ALTA" id="895C33BC-E9DA-708F-F965-3E7BA29F14AC">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FC_USUARIO_ALTA</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>6B55DFF3-8E3D-5F3E-407D-3FAE4619056C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_MODIFICO" id="D138D2C4-89EA-FFEE-9B01-ADFDCFF600F2">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FD_FECHA_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>A0C49414-E4D6-7412-BE14-A2986D84AFAA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USUARIO_MODIFICO" id="5BFA9E67-7DDC-2F39-FFA0-AD81AF513E24">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>TA_USERIPADRESS</sourceObjSchema>
+<sourceObjName>FC_USUARIO_MODIFICO</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7A79EE8B-B711-AC16-169F-6B49BE36156C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F257A550-49C5-97F6-7B1F-D29247A5E59A" name="PK_USR_IP_ADD">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_USR_IP_ADD</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>2D768A44-9DBC-3641-AC52-2D579E8C2A31</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5EB4165-3A84-8DE7-CE10-1B06F1176160"/>
+<colUsage columnID="5BF0A780-4412-A9A0-770F-3D8A54999ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BD2B7E5-E9CB-6541-9E21-353EC1A42361" schemaObject="8AD07257-1A3E-3202-6080-D8F43B2E5CBC" name="PK_USR_IP_ADD">
+<sourceConnName>bdteam</sourceConnName>
+<sourceObjSchema>SC_BEA</sourceObjSchema>
+<sourceObjName>PK_USR_IP_ADD</sourceObjName>
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>8CD08DD0-8252-A38F-396E-026AA4D036FD</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5EB4165-3A84-8DE7-CE10-1B06F1176160"/>
+<colUsage columnID="5BF0A780-4412-A9A0-770F-3D8A54999ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C510B2F-FDC7-41C9-106F-A3294518FADC" name="FK_FI_ID_USERS">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BF0A780-4412-A9A0-770F-3D8A54999ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5640B7DA-A722-B8C8-6DB0-3F5C1CC9CCEA" name="FK_TA_IP">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:09 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5EB4165-3A84-8DE7-CE10-1B06F1176160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
