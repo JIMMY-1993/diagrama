@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SC_BEA" directorySegmentName="seg_0" id="8AD07257-1A3E-3202-6080-D8F43B2E5CBC">
+<createdBy>lpedrero</createdBy>
+<createdTime>2020-01-29 17:50:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<importedID>7437DE00-14CD-2086-B403-4BB32DC29932</importedID>
+</SchemaObject>
